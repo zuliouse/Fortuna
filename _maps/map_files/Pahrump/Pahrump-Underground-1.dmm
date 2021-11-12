@@ -12112,8 +12112,8 @@
 	},
 /area/f13/caves)
 "gSv" = (
-/obj/effect/spawner/lootdrop/f13/weapon/melee/random_high,
 /obj/structure/closet/crate/miningcar,
+/obj/effect/spawner/lootdrop/f13/weapon/melee/random,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "gSD" = (
@@ -12995,10 +12995,11 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/den)
 "hxa" = (
-/obj/machinery/light/small{
-	dir = 4
+/obj/structure/nest/scorpion{
+	max_mobs = 3;
+	spawn_time = 10
 	},
-/turf/closed/mineral/random/high_chance,
+/turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "hyv" = (
 /obj/structure/chair/wood{
@@ -13172,7 +13173,7 @@
 /area/f13/bunker)
 "hHs" = (
 /obj/structure/closet/crate/miningcar,
-/obj/effect/spawner/lootdrop/f13/weapon/melee/random_high,
+/obj/effect/spawner/lootdrop/f13/weapon/melee/tier2,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "hHw" = (
@@ -13210,8 +13211,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
 "hIR" = (
-/obj/structure/closet/crate/miningcar,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/mid,
+/obj/structure/nest/scorpion{
+	max_mobs = 4;
+	spawn_time = 10
+	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "hJD" = (
@@ -17158,7 +17161,10 @@
 	},
 /area/f13/bunker)
 "kKb" = (
-/obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/hobo,
+/obj/structure/nest/scorpion{
+	max_mobs = 4;
+	spawn_time = 20
+	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "kKB" = (
@@ -18454,7 +18460,7 @@
 /area/f13/caves)
 "lMM" = (
 /obj/structure/rack,
-/obj/effect/spawner/lootdrop/f13/weapon/melee/random,
+/obj/effect/spawner/lootdrop/f13/weapon/melee/tier4,
 /turf/open/floor/wood/f13/old,
 /area/f13/caves)
 "lMT" = (
@@ -24286,7 +24292,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/operations)
 "pJT" = (
-/obj/structure/nest/scorpion,
+/obj/structure/nest/scorpion{
+	max_mobs = 3;
+	spawn_time = 100
+	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/caves)
 "pKf" = (
@@ -24469,7 +24478,7 @@
 /area/f13/followers)
 "pOB" = (
 /obj/structure/closet/crate/miningcar,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/high,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/mid,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "pOI" = (
@@ -25691,7 +25700,7 @@
 /area/f13/brotherhood/offices1st)
 "qCm" = (
 /obj/structure/closet/crate/miningcar,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/high,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/mid,
 /turf/open/floor/wood/f13/stage_bl,
 /area/f13/caves)
 "qCn" = (
@@ -29395,7 +29404,7 @@
 /area/f13/bunker)
 "tmX" = (
 /obj/structure/closet/crate/miningcar,
-/obj/effect/spawner/lootdrop/f13/armor/tier4,
+/obj/effect/spawner/lootdrop/f13/armor/tier3,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "tnf" = (
@@ -39641,7 +39650,7 @@ aoj
 hQE
 uoO
 qDR
-qDR
+xVz
 xVz
 uoO
 uoO
@@ -40184,8 +40193,8 @@ xVz
 xVz
 xVz
 xVz
-xVz
-xVz
+uoO
+uoO
 uoO
 uoO
 uoO
@@ -40442,7 +40451,7 @@ xVz
 xVz
 xVz
 xVz
-xVz
+uoO
 uoO
 uoO
 uoO
@@ -40699,7 +40708,7 @@ uoO
 xVz
 xVz
 xVz
-xVz
+uoO
 aoj
 uoO
 uoO
@@ -42236,7 +42245,7 @@ uoO
 eLE
 eLE
 eLE
-eAQ
+hxa
 xVz
 xVz
 xVz
@@ -47113,7 +47122,7 @@ xVz
 xVz
 xVz
 xVz
-eAQ
+hIR
 pOB
 xVz
 xVz
@@ -47358,7 +47367,7 @@ xVz
 xVz
 xVz
 xVz
-hIR
+lAE
 xVz
 qDR
 uoO
@@ -48399,7 +48408,7 @@ uoO
 uoO
 uoO
 xVz
-hxa
+aoj
 aoj
 aoj
 aoj
@@ -52005,7 +52014,7 @@ xVz
 xVz
 xVz
 xVz
-eAQ
+kKb
 xVz
 xVz
 xVz
@@ -55044,7 +55053,7 @@ xVz
 xVz
 xVz
 xVz
-eAQ
+hIR
 xVz
 xVz
 xVz
@@ -55074,7 +55083,7 @@ aoj
 aoj
 aoj
 xVz
-hHs
+iuB
 xVz
 xVz
 xVz
@@ -56833,7 +56842,7 @@ uoO
 uoO
 xVz
 xVz
-eAQ
+hxa
 xVz
 wcF
 hQE
@@ -63009,7 +63018,7 @@ uoO
 uoO
 uoO
 uoO
-kKb
+xVz
 xVz
 xVz
 piQ
@@ -63267,8 +63276,8 @@ uoO
 uoO
 uoO
 uoO
-rDS
-rDS
+tJp
+xVz
 uoO
 uoO
 uoO

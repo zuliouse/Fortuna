@@ -12250,12 +12250,6 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/village)
-"frZ" = (
-/obj/structure/lamp_post/doubles,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaltopbordertop2left"
-	},
-/area/f13/wasteland)
 "fsh" = (
 /obj/structure/table/wood,
 /turf/open/indestructible/ground/outside/road{
@@ -13179,11 +13173,6 @@
 /obj/effect/decal/remains/human,
 /turf/open/floor/f13/wood,
 /area/f13/clinic)
-"fNf" = (
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaloutermain2left"
-	},
-/area/f13/building)
 "fNq" = (
 /obj/structure/table,
 /turf/open/floor/f13,
@@ -33548,7 +33537,7 @@
 /area/f13/building)
 "oJm" = (
 /obj/structure/closet,
-/obj/effect/spawner/lootdrop/f13/armor/random,
+/obj/effect/spawner/lootdrop/f13/armor/tier2,
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "oJp" = (
@@ -39308,6 +39297,11 @@
 /obj/effect/spawner/lootdrop/trash,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
+"rsN" = (
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaloutermain2left"
+	},
+/area/f13/building)
 "rth" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/trash/f13/borscht,
@@ -51300,6 +51294,12 @@
 	icon_state = "verticalleftborderright2bottom"
 	},
 /area/f13/village)
+"wXB" = (
+/obj/structure/lamp_post/doubles,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaltopbordertop2left"
+	},
+/area/f13/wasteland)
 "wXJ" = (
 /obj/machinery/light/small{
 	dir = 8;
@@ -82997,7 +82997,7 @@ mHW
 dFQ
 pTC
 aXu
-frZ
+wXB
 qiP
 wGJ
 uVo
@@ -103056,7 +103056,7 @@ koD
 cpK
 uCW
 ids
-fNf
+rsN
 lOz
 sIO
 gts
